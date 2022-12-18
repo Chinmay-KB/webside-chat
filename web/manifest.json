@@ -2,9 +2,7 @@
   "name": "Webside chat",
   "description": "Chat with people who are on the same website",
   "version": "1.0.0",
-  "content_security_policy": {
-    "extension_pages": "script-src 'self' ; object-src 'self'"
-  },
+  "permissions": ["activeTab", "tabs"],
   "action": {
     "default_popup": "index.html",
     "default_icon": "icons/Icon-192.png"
